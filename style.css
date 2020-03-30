@@ -1,0 +1,110 @@
+						/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+i, em					{font-style: italic;}
+
+b, strong				{font-weight: bold;}
+
+ol, ul 					{list-style: none inside;}
+						
+						
+						
+						/*helpers*/
+.clear 						{height: 0; clear: both; float: none;}
+.right 						{float: right; display: inline;}
+.left						{float: left; display: inline;}
+
+
+
+						/*typograhpy*/
+body 						{font: normal normal normal 14px Arial; color: #2d2d2d;}
+
+
+
+						/*BLOCKS*/
+html						{height: 100%;}
+* html body					{height: 100%; position: relative;}
+body						{min-height: 100%; position: relative; border-top: 2px solid #ef4023; background: url('img/bg.jpg') repeat;}
+
+
+
+						/*wrap*/
+#wrap						{width: 960px; margin: 0 auto; padding: 0 0 112px; overflow: visible;}
+
+
+						/*header*/
+#header .logo				{float: left; margin: 17px 0 0;}
+#header .logo:active		{margin: 18px 1px -1px;}
+
+#header .right				{margin: 0 12px 0;}
+
+#header .tel				{text-indent: -9999px; width: 186px; height: 27px; margin: 13px 9px 0; background:  url('img/tel.png') no-repeat;}
+
+#header	.nav-menu			{margin: 19px 7px 0; float: right;}
+#header	.nav-menu li		{float: left; display: inline; margin: 0 0 0 9px; padding: 0 0 0 9px; background:  url('img/sep-v.png') no-repeat 0 2px;}
+#header	.nav-menu li.last   {background-image: none;}
+#header	.nav-menu a			{font: normal bold 17px 'Helvetica Neue'; text-shadow: 1px 1px 0px #fff; text-decoration: none; color: #ef4023;}
+#header	.nav-menu a:hover   {color: #40beee;}
+#header	.nav-menu a.active	{color: #404040;}
+
+#header .ban				{width: 1009px; height: 213px; margin: 13px 0 0 -19px; background: url('img/ban.png') no-repeat 0 0;}
+						
+						
+						
+						/*content*/
+#content					{margin: 22px 0 0;}
+						
+#content .sidebar			{width: 300px; margin: 0 20px 0 0;}
+#content .sidebar li 		{margin: 0 0 5px; padding: 0 0 12px 24px; background:  url('img/sep-h.png') no-repeat 0 100%;}
+#content .sidebar li li 	{margin: 0.5em 0 0; padding-bottom: 0; background-image: none;}
+#content .sidebar li a		{font: normal normal 16px Arial, sans-serif ; text-decoration: none; color: #ef4023;}
+#content .sidebar li a:hover{color: #40beee;}
+#content .sidebar li a.active{color: #ac1800;}
+#content .sidebar li li a	{font-size: 1em; text-decoration: underline; color: #003661;}
+#content .sidebar li li a:hover{text-decoration: none;}
+.contact li a:hover			{color: #ef4023 !important;}
+
+#content .cont				{width: 640px;}
+#content .cont h4.it-1		{text-indent: -9999px; width: 275px; height: 38px; margin: 8px 0 25px; background: url('img/h-items.png') no-repeat -2px 0;}
+#content .cont h4.it-2		{text-indent: -9999px; width: 203px; height: 38px; margin: 8px 0 25px; background: url('img/h-items.png') no-repeat -2px -53px;}
+#content .cont h4.it-3		{text-indent: -9999px; width: 343px; height: 38px; margin: 8px 0 25px; background: url('img/h-items.png') no-repeat -2px -105px;}
+#content .cont h4.it-4		{text-indent: -9999px; width: 199px; height: 38px; margin: 8px 0 25px; background: url('img/h-items.png') no-repeat -2px -159px;}
+
+
+#content .cont h5			{font-size: 20px; color:#ccc; text-shadow: #fff 1px 1px 2px; margin: -17px 0 24px;}
+#content .cont h6			{font-style: italic; font-weight: bold; margin: 0 0 10px;}
+#content .cont p			{margin: 0 0 24px;}
+#content .cont ul			{margin: 0 0 24px 39px;}
+#content .cont ul li 		{padding: 0 0 0 12px; margin: 0 0 5px; background: url('img/bul.png') no-repeat 0px 5px;}
+#content .cont a			{text-decoration: underline; color: #003661;}
+#content .cont a:hover		{text-decoration: none;}
+
+#content .cont .map			{width: 640px; height: 400px;}
+					
+					
+						/*footer*/
+#footer						{width: 940px; height: 78px; position: absolute; bottom: 0; left: -470px; margin-left: 50%; margin-top: 60px; border-top: 1px solid #c2c2c2;}
+#footer	.shell-footer		{font-size: 12px; color: #292929; border-top: 1px solid #fff;}
+#footer ul 					{margin: 15px 0 0;}
+#footer	li					{margin: 0 0 11px;}
+#footer	li a				{color: #002e73;}
+#footer	li a:hover			{text-decoration: none;}
+
+#footer h5.copy 			{margin: 15px 0 0;}
